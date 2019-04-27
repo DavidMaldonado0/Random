@@ -27,6 +27,14 @@ ul {
     color: #000;
     font-weight: bolder; 
 }
+
+.dark{
+    padding: 15px;
+    background-color: #455650;
+    color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /* HEADER */
 header{
     background: #455650;
@@ -140,4 +148,29 @@ footer{
 
 footer p a{
     color: #000;
+}
+
+/*sidebar*/
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/*MAIN*/
+
+article#main-col{
+    float: left;
+    width: 65%;
+    text-align: justify;
+}
+article h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+article p{
+    font-size: 16px;
 }
