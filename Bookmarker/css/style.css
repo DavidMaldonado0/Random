@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Amarante');
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #F2EBE0;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -76,4 +79,28 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+/*ADDITIONAL STYLES*/
+
+.container h1{
+  font-family: 'Amarante', cursive;
+  font-weight: bolder;
+  text-align: center;
+  color: #CA4C34;
+}
+
+.jumbotron{
+  background-color: #473C1F;
+  color: #FFF;
+}
+
+.jumbotron button{
+  background-color: #CA4C34;
+  color: #FFF; 
+}
+
+#bookmarksResults{
+  background-color: #A08746;
+  color: #FFF;
 }
