@@ -105,6 +105,16 @@ body{
     color: #FFFFFF;
   }
   
+  /*PROGRESS BAR*/
+
+  .progress-bar{
+    background: #7D887A;
+    color: #FFFFFF;
+  }
+
+  .dash-box{
+    text-align: center;
+  }
 
 
  @media (max-width: 767px) {
