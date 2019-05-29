@@ -121,6 +121,33 @@ img {
     text-align: center;
 }
 
+.tabs p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+.tabs .container > div {
+    padding: 1.5rem 0;
+}
+
+.tabs .container > div:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.tab-borfer {
+    border-bottom: var(--primary-color) 4px solid;
+}
+
+/*****   tabs   *****/
+
+.container{
+    max-width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
 /*****   button   *****/
 
 .btn {
