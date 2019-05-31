@@ -135,8 +135,16 @@ img {
     cursor: pointer;
 }
 
-.tab-borfer {
+.tab-border {
     border-bottom: var(--primary-color) 4px solid;
+}
+
+#tab-1-content .tab-1-content-inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 /*****   tabs   *****/
